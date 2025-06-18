@@ -1,0 +1,40 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "NodeJS DNC",
+    "collectionId": "fd763d42-8cfe-418d-95dc-735095d5bbeb",
+    "dateExported": "2025-06-18T15:46:52.165Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4863baa4-5a04-4ff0-9dda-313b704f4aa8",
+            "colId": "fd763d42-8cfe-418d-95dc-735095d5bbeb",
+            "containerId": "",
+            "name": "GET",
+            "url": "http://localhost:3000/grades",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-06-18T15:31:10.883Z",
+            "modified": "2025-06-18T15:32:01.569Z",
+            "headers": []
+        },
+        {
+            "_id": "bf917a73-0355-4157-871c-131b92ec4f59",
+            "colId": "fd763d42-8cfe-418d-95dc-735095d5bbeb",
+            "containerId": "",
+            "name": "POST",
+            "url": "http://localhost:3000/grades",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-06-18T15:33:11.695Z",
+            "modified": "2025-06-18T15:38:22.113Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"studentName\": \"Leticia\",\n  \"subject\": \"Fisica\",\n  \"grade\": \"7\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "iqqM8kx8GQZBna0_LR-noWHhtfG4HAk7O-gDEdZRkCoaCjqeZ5ZVO-oULzhsxCpKa1_vfOzsGsnhC9PXiEQi2w"
+}
