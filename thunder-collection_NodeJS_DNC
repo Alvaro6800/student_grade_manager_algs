@@ -2,7 +2,7 @@
     "clientName": "Thunder Client",
     "collectionName": "NodeJS DNC",
     "collectionId": "fd763d42-8cfe-418d-95dc-735095d5bbeb",
-    "dateExported": "2025-06-18T15:46:52.165Z",
+    "dateExported": "2025-06-18T16:12:52.117Z",
     "version": "1.2",
     "folders": [],
     "requests": [
@@ -27,14 +27,43 @@
             "method": "POST",
             "sortNum": 20000,
             "created": "2025-06-18T15:33:11.695Z",
-            "modified": "2025-06-18T15:38:22.113Z",
+            "modified": "2025-06-18T16:10:59.523Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"studentName\": \"Leticia\",\n  \"subject\": \"Fisica\",\n  \"grade\": \"7\"\n}",
+                "raw": "{\n  \"studentName\": \"Alvaro\",\n  \"subject\": \"Matemarica\",\n  \"grade\": \"10\"\n}",
                 "form": []
             }
+        },
+        {
+            "_id": "5dd28aeb-4550-4532-b0d5-fb836d4c0d78",
+            "colId": "fd763d42-8cfe-418d-95dc-735095d5bbeb",
+            "containerId": "",
+            "name": "PUT",
+            "url": "http://localhost:3000/grades/1eef076c-12c2-4688-a816-f567a65351ac",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2025-06-18T15:57:02.656Z",
+            "modified": "2025-06-18T16:11:22.012Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"studentName\": \"Leticia\",\n  \"subject\": \"Portugues\",\n  \"grade\": \"7\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ceef48da-afd2-4537-a9e4-3839e0f11b66",
+            "colId": "fd763d42-8cfe-418d-95dc-735095d5bbeb",
+            "containerId": "",
+            "name": "DELETE",
+            "url": "http://localhost:3000/grades/1eef076c-12c2-4688-a816-f567a65351ac",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2025-06-18T16:10:18.150Z",
+            "modified": "2025-06-18T16:11:46.774Z",
+            "headers": []
         }
     ],
-    "ref": "iqqM8kx8GQZBna0_LR-noWHhtfG4HAk7O-gDEdZRkCoaCjqeZ5ZVO-oULzhsxCpKa1_vfOzsGsnhC9PXiEQi2w"
+    "ref": "iqqM8kx8GQZBna0_LR-noRppWmnF-ZrQSwd-_CIUbtX1nj11ZAREOrNxMpSeKExTWnQQfyVE9iH847Gl9x6zBA"
 }
